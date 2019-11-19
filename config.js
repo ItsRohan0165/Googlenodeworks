@@ -16,7 +16,7 @@ const config = {
   // DO NOT REMOVE THIS BEFORE YOUR BOT IS LOADED AND FUNCTIONAL.
   
   defaultSettings: {
-  "prefix": "!",
+  "prefix": "/",
   "modLogChannel": "logs",
   "modRole": "Moderator",
   "adminRole": "Administrator",

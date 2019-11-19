@@ -3,13 +3,13 @@ const config = {
   // will pull this information directly from it's application page.
 
   // Bot Admins, level 9 by default. Array of user ID strings.
-  "admins": ["HÈxagÿn#6542"],
+  "admins": ["H√©xag√òn#6542"],
 
   // Bot Support, level 8 by default. Array of user ID strings
   "support": ['467306557114155018'],
 
   // Your Bot's Token. Available on https://discordapp.com/developers/applications/me
-  "token":  process.env('token'),
+  "token":  process.env.token,
 
   // Default per-server settings. These settings are entered in a database on first load, 
   // And are then completely ignored from this file. To modify default settings, use the `conf` command.

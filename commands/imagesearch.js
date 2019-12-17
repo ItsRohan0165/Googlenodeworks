@@ -16,7 +16,7 @@ class gimage extends Command {
 
   async run (message, args, level) { // eslint-disable-line no-unused-vars
     try {
-      const client = new GoogleImages('', 'key');
+      const client = new GoogleImages('011505958407223462517:mkbh568yhqw', 'AIzaSyAut7tzFU6ht-aDvzEIkNjzZaLRDN2_wnU');
 	
 	if(!args[0]){
 			message.channel.send(":x: | You must search for something")
@@ -30,7 +30,7 @@ class gimage extends Command {
 	.setAuthor("Google Image Search","https://www.iosicongallery.com/icons/google-2015-10-22/512.png")
 	.setImage((images[Math.floor(Math.random() * images.length)].url))
 	.setColor('#275BF0')
-	.setFooter("HéxagØn#6542", "https://i.imgur.com/dJb2tIq.png")
+	.setFooter("HéxagØn#6542")
 	message.channel.send({embed});
       });
     } catch (e) {

@@ -16,7 +16,7 @@ class gimage extends Command {
 
   async run (message, args, level) { // eslint-disable-line no-unused-vars
     try {
-      const client = new GoogleImages('002090988512210948953:3llemhwwasw', 'AIzaSyDm0QmM0ehTKZ3a5blP7tdIHAfrY8nuMRs');
+      const client = new GoogleImages('', 'key');
 	
 	if(!args[0]){
 			message.channel.send(":x: | You must search for something")
